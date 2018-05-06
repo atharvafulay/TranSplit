@@ -73,7 +73,18 @@ public class Contact {
         
     }
 
-
+    /**
+     * This is for the owner of the app. They will have as username, password and other bits filled out because they are the owner.
+     *
+     * IsOwner is defaulted to 1, IsTemp is defaulted to 0 (owner can't be temp), IsInCurrentMeet will always be true.
+     *
+     * @param firstName
+     * @param lastName
+     * @param email
+     * @param phoneNumber
+     * @param username
+     * @param password
+     */
     public Contact(String firstName, String lastName, String email, int phoneNumber, String username, String password) {
         this.firstName = firstName;
         this.lastName = lastName;
